@@ -1,3 +1,5 @@
+heroku buildpacks:set heroku/nodejs
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 client.login('NjU5MzU4ODEyMjgwNzE3MzEy.XgNKmQ.g0AozV3u0E_zadlDwSLRTkwMOGg');
