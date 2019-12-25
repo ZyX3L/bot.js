@@ -1,4 +1,4 @@
-heroku buildpacks:set heroku/nodejs
+$ heroku buildpacks:set heroku/nodejs
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
